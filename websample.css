@@ -1,0 +1,53 @@
+h1{color: white; margin: 0px; font-size: 40px}
+Body{margin: 0px;
+Font-family: Poppins}
+.generalContainer{background-color: #bf5af2; 
+Min-height: 100vh;
+Background-image: url("./bg-desktop.svg")
+}
+
+A{margin: 0px 10px;
+text-Decoration: none;
+Font-size: 18px;
+Color: white}
+
+A:hover{color: blue;
+Font-weight: bold}
+
+.headerContainer{
+Height: 100px;
+Display: flex;
+Justify-content: space-between;
+Align-items: center;
+Padding: 0px 30px;}
+
+.imageTextContainer{
+Display: flex;
+Justify-content: space-between;
+Padding: 0px 50px;}
+
+.textContainer{
+max-width: 500px;
+Display: flex;
+Flex-direction: column;
+Justify-content: center;
+Color: white}
+
+button{
+Height: 50px;
+Width: 220px;
+Border-radius: 100px;
+Border: none;
+Background-color: white;
+Color: purple;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+Button:hover{color: gray; background-color: lightblue}
+
+.footerImage{
+Height: 195px;
+Margin: 0px 30px;
+Display: flex;
+Justify-content: flex-end;
+Align-items: flex-end;
+gap: 20px;}
